@@ -12,7 +12,7 @@ const SiteHeader = styled.header`
 `
 const Inner = styled.div`
   margin: 0 auto;
-  max-width: 960;
+  max-width: 960px;
   padding: 0.5rem 1rem 1.0875rem;
   display: flex;
 `

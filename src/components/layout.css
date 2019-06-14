@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Merriweather', georgia, serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -185,7 +185,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em 'Merriweather', georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -199,9 +199,10 @@ html {
   box-sizing: inherit;
 }
 body {
+  height:100vh;
   color: hsla(0, 0%, 0%, 0.8);
   background-color: #fcf0e6;
-  font-family: georgia, serif;
+  font-family: 'Merriweather', georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

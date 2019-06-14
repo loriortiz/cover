@@ -7,7 +7,7 @@ sutroTheme.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     "a": {
-      color: `#1a1a1a`,
+      color: `#F5205D`,
       textShadow: `0.05px 0.05px 0px rgba(0, 0, 0, 1)`,
     },
   }

@@ -19,20 +19,18 @@ const NavList = styled.ul`
 const ListItem = styled.li`
   display: inline-block;
   padding: 0 2rem;
-  background-color: #fff;
 ` 
 const LinkItem = styled(Link)`
   text-decoration: none;
-  background-color: #fff;
 `
 const Nav = () => (
   <SiteNav>
     <NavList>
       <ListItem>
-        <Link to="/articles/">Articles</Link>
+        <LinkItem to="/articles/">Articles</LinkItem>
       </ListItem>
       <ListItem>
-        <Link to="/contact/">Contact</Link>
+        <LinkItem to="/contact/">Contact</LinkItem>
       </ListItem>
     </NavList>
   </SiteNav>

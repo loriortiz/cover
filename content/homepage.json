@@ -1,0 +1,14 @@
+{
+  "gallery": [{
+    "title": "Kiki Smith",
+    "date": 1998,
+    "copy": "Out-of-body experience at the Mattress Factory",
+    "image": "../images/gallery/kiki.jpg"
+  },
+  {
+    "title": "Milla",
+    "date": 1995,
+    "copy": "On runway, record, and film",
+    "image": "../images/gallery/milla.jpg"
+  }]
+}

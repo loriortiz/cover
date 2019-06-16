@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import styled from "styled-components"
-import logoPath from '../components/logo.gif'
 
 const SiteNav = styled.div`
   display: flex;

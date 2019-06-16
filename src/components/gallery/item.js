@@ -3,28 +3,24 @@ import PropTypes from 'prop-types'
 import styled from "styled-components"
 import Img from 'gatsby-image'
 
-const Title = styled.span`
-  display: block;
-  font-size: 2rem;
+const Title = styled.h3` 
   font-weight: 600;
-  margin: 2rem 2rem 1rem;
 `
 const Copy = styled.p`
-  color: #757575;
-  margin: 0 2rem 2rem;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-bottom: 2rem;
 `
-const Issue = styled.p`
-  color: #757575;
-  margin: 0 2rem 2rem;
-  font-style: oblique;
+const Date = styled.h6`
+  margin-bottom: 0;
 `
 
-const Item = ({ title, copy, issue, image }) => (
+const Item = ({ title, copy, date, image }) => (
   <figure>
     <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
     <figcaption>
       <Title>{title}</Title>
-      <Issue>{issue}</Issue>
+      <Date>{date}</Date>
       <Copy>{copy}</Copy>
     </figcaption>
   </figure>

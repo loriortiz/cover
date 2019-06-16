@@ -29,13 +29,14 @@ function Footer(props){
   return (
     <footer
       style={{
-        position: `absolute`,
-        bottom: `10px`,
+        textAlign: `center`,
+        /*position: `absolute`,
+        bottom: `10px`,*/
       }}
     >
-      © {new Date().getFullYear()}, Built with
+      © {new Date().getFullYear()}
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="http://jeffreycypherswright.com">Jeffrey Cyphers Wright</a>
       </footer>
   )
 }

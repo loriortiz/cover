@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
-import logoPath from '../components/logo.gif'
 import Image from "../components/image"
 import Nav from "../components/nav"
 
@@ -28,14 +27,12 @@ const Logo = styled.div`
 `
 const Header = ({ siteTitle }) => (
   <SiteHeader>
-    <Inner>
-      
+    <Inner> 
         <HomeLink to="/">
          <Logo>
            <Image />
          </Logo>  
         </HomeLink>
-      
       <Nav />
     </Inner>
   </SiteHeader>

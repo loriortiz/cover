@@ -13,17 +13,18 @@ const Copy = styled.p`
   color: #757575;
   margin: 0 2rem 2rem;
 `
-const Date = styled.p`
+const Issue = styled.p`
   color: #757575;
   margin: 0 2rem 2rem;
+  font-style: oblique;
 `
 
-const Item = ({ title, copy, date, image }) => (
+const Item = ({ title, copy, issue, image }) => (
   <figure>
     <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
     <figcaption>
       <Title>{title}</Title>
-      <Date>{date}</Date>
+      <Issue>{issue}</Issue>
       <Copy>{copy}</Copy>
     </figcaption>
   </figure>
@@ -32,7 +33,6 @@ const Item = ({ title, copy, date, image }) => (
 Item.propTypes = {
   title: PropTypes.string,
   copy: PropTypes.string,
-  date: PropTypes.number,
   image: PropTypes.object.isRequired,
 };
 

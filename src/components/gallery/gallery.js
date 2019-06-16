@@ -10,7 +10,6 @@ const Container = styled.div`
   padding: 0 4rem;
   margin: 2rem 0;
 `
-
 const Gallery = ({ items }) => (
   <Container>
     {items.map((item, i) => (

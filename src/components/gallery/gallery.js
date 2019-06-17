@@ -9,6 +9,11 @@ const Container = styled.div`
   grid-gap: 4rem;
   padding: 0 4rem;
   margin: 2rem 0;
+  
+  @media (max-width: 400px) {
+      display: block;
+    }
+  }
 `
 const Gallery = ({ items }) => (
   <Container>

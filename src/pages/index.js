@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -23,6 +22,7 @@ export const query = graphql`
     homeJson {
       gallery {
         title
+        slug
         date
         copy
         image {

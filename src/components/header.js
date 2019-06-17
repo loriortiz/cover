@@ -14,6 +14,11 @@ const Inner = styled.div`
   max-width: 960px;
   padding: 0.5rem 1rem 1.0875rem;
   display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 const HomeLink = styled(Link)`
   text-decoration: none;

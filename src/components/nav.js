@@ -21,6 +21,9 @@ const ListItem = styled.li`
 ` 
 const LinkItem = styled(Link)`
   text-decoration: none;
+  :hover {
+    color: black;
+  }
 `
 const Nav = () => (
   <SiteNav>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Cover Magazine`,
+    description: `Cover magazine was billed as The Underground National and circlulated for 13 years until 2000. This redux provides a glimpse into that cultural era.`,
+    author: `@LiveMagNYC`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -35,7 +35,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -45,7 +52,7 @@ module.exports = {
         background_color: `#fcf0e6`,
         theme_color: `#fcf0e6`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

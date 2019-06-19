@@ -1,5 +1,6 @@
+
 html {
-  font-family: 'Merriweather', georgia, serif;
+  font-family: 'Merriweather', Georgia, serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -202,7 +203,7 @@ body {
   height:100vh;
   color: hsla(0, 0%, 0%, 0.8);
   background-color: #fcf0e6;
-  font-family: 'Merriweather', georgia, serif;
+  --body-font-family: "Merriweather", "Georgia", serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -222,6 +223,9 @@ img {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+main {
+  --heading-font-family: "Open Sans Condensed", sans-serif;
+}
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -232,7 +236,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -249,7 +253,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -265,7 +269,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -281,7 +285,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -297,7 +301,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -313,7 +317,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -382,6 +386,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: var(--body-font-family);
 }
 figure {
   margin-left: 0;
@@ -405,6 +410,7 @@ pre {
   overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
+  font-family: var(--body-font-family);
 }
 table {
   margin-left: 0;
@@ -439,6 +445,7 @@ blockquote {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: var(--body-font-family);
 }
 form {
   margin-left: 0;
@@ -492,6 +499,7 @@ address {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: var(--body-font-family);
 }
 b {
   font-weight: bold;
@@ -585,7 +593,7 @@ th:last-child,
 td:last-child {
   padding-right: 0;
 }
-tt,
+/*tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
@@ -594,8 +602,8 @@ code {
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
-}
-pre code {
+}*/
+/*pre code {
   background: none;
   line-height: 1.42;
 }
@@ -611,7 +619,7 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
-}
+}*/
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

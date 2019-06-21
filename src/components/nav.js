@@ -13,6 +13,7 @@ const SiteNav = styled.div`
 const NavList = styled.ul`
   display:flex;
   justify-content: flex-end;
+  font-family: "Open Sans Condensed", sans-serif;
   margin-bottom: 0;
 `
 const ListItem = styled.li`

@@ -9,8 +9,13 @@ const Article = styled.div`
   max-width: 650px;
   margin: 0 auto;
 `
+const ArticleTitle = styled.h3`
+  font-size: 230%;
+  text-shadow: 1px 0 0 #000, 2px 0 0 rgba(255, 5, 0, 1);
+`
 const Caption = styled.small`
-  line-height: 1rem;
+  font-size: 0.80em;
+  line-height: 0.08em;
 `
 const HomeLink = styled(Link)`
   text-align:center;
@@ -41,10 +46,11 @@ const KikiPage = () => (
       <Article>
         <SEO title="Kiki Smith" />
         <h2>Kiki Smith: Flight Mound<br />At the Mattress Factory</h2>
-        <div style={{ maxWidth: `300px`, marginBottom: `1rem` }}>
+        <div style={{ maxWidth: `300px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
           <Img fluid={data.introImage.childImageSharp.fluid} alt="installation" />
         <Caption><em><b>Flight Mound</b></em> 1998. Installation of silkscreened packing quilts and bronze birds at the <a href="https://www.mattress.org/archive/index.php/Detail/collections/117">Mattress Factory</a> in Pittsburgh, PA.</Caption>
         </div>
+        <ArticleTitle><em>BODY OF WORK</em></ArticleTitle>
         <p>BY <strong>KAREN TOM</strong>, Photos: <strong>Robert Baldridge</strong></p>
         <p>The mission began on February 4, 1998, 12:32 a.m., New York City. There were flash-flood warnings for the entire East Coast. Noreaster was in full force, but despite the obstacles, my partner-in-crime, photographer Robert Baldridge and I packed up our gear and resolutely headed on the icy high­ways and byways, pilgrimaging to Pittsburgh.</p> <p>Between driving shifts and insomnia, I zoned into the world of Kiki Smith. Under the guidance of a flashlight, I read through the one-inch pile of articles about Kiki's life and career. The information mostly covered her multi medium sculptures exploring the human anatomy and its func- tions, via excretions and exposed organs. A study she spent over a decade dissecting.</p> <p>It catapulted her into the art world spotlight — a prestige that includes representation by the one of the world's most prestigious galleries, the Pace Wildenstein Gallery; solo exhibitions at the MoMA, Dallas Museum of Art, the Museum of Contemporary Art in Los Angeles; group showings at The Whitney Biennial, New Museum of Contemporary Art in New York, Guggenheim Museum SoHo, and her bronze version of Lilith permanently displayed at the MET.</p>
           <p>Also, I learned the details of her personal history: the life of being the daughter of artist Tony Smith, an environment with Jackson Pollack and Lee Krasner as casual guests at the dinner table.</p>

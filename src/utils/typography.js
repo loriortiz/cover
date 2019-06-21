@@ -22,7 +22,7 @@ sutroTheme.overrideThemeStyles = () => {
   }
 }
 
-delete sutroTheme.googleFonts
+
 
 const typography = new Typography(sutroTheme)
 

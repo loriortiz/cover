@@ -1,5 +1,6 @@
 import Typography from "typography"
 import sutroTheme from "typography-theme-sutro"
+sutroTheme.headerFontFamily = ['"Open Sans Condensed", sans-serif']
 
 sutroTheme.overrideThemeStyles = () => {
   return {

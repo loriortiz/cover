@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/isb0hki.css");
 
 html {
   font-family: 'Merriweather', Georgia, serif;
@@ -224,7 +225,7 @@ img {
   margin-bottom: 1.45rem;
 }
 main {
-  --header-font-family: "Open Sans Condensed", sans-serif;
+  --header-font-family: futura-pt-condensed, sans-serif;
 }
 h1 {
   margin-left: 0;

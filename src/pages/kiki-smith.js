@@ -20,7 +20,7 @@ const Caption = styled.small`
 const HomeLink = styled(Link)`
   text-align:center;
   display: block;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: futura-pt-condensed, sans-serif;
 `
 const KikiPage = () => (
   <StaticQuery

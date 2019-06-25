@@ -5,7 +5,7 @@ import styled from "styled-components"
 const SiteNav = styled.div`
   display: flex;
   justify-content: flex-end;
-  font-family: 'Open Sans', sans-serif;
+  font-family: futura-pt-condensed, sans-serif;
   letter-spacing: 0.02rem;
   padding-top: 0.7rem;
   flex-grow: 2;
@@ -13,7 +13,7 @@ const SiteNav = styled.div`
 const NavList = styled.ul`
   display:flex;
   justify-content: flex-end;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: futura-pt-condensed, sans-serif;
   margin-bottom: 0;
 `
 const ListItem = styled.li`

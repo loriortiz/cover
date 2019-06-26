@@ -8,8 +8,7 @@ sutroTheme.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     "a": {
-      color: `#F5205D`,
-      textShadow: `0.05px 0.05px 0px rgba(0, 0, 0, 1)`,
+      color: `tomato`,
     },
     "a.copy": {
       fontFamily: `Merriweather, Georgia, serif`,

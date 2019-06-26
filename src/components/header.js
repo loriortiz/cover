@@ -6,7 +6,7 @@ import Image from "../components/image"
 import Nav from "../components/nav"
 
 const SiteHeader = styled.header`
-  background: #fcf0e6; 
+  background: #fff7f0; 
   margin-bottom: 1.45rem;
 `
 const Inner = styled.div`
@@ -25,7 +25,8 @@ const HomeLink = styled(Link)`
   flex-grow: 1; 
 `
 const Logo = styled.div`
-  width: 300px;
+  width: 150px;
+  margin-top: 0.5rem;
   height: auto;
   background-color: transparent;
   display: inline-block;

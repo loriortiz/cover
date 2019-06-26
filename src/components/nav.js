@@ -21,6 +21,7 @@ const ListItem = styled.li`
   padding: 0 2rem;
 ` 
 const LinkItem = styled(Link)`
+  font-size: 1.4rem;
   text-decoration: none;
   :hover {
     color: black;

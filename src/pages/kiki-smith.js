@@ -10,7 +10,7 @@ const Article = styled.div`
   margin: 0 auto;
 `
 const ArticleTitle = styled.h3`
-  font-size: 230%;
+  font-size: 3rem;
   text-shadow: 1px 0 0 #000, 2px 0 0 rgba(255, 5, 0, 1);
 `
 const Caption = styled.small`
@@ -21,6 +21,10 @@ const HomeLink = styled(Link)`
   text-align:center;
   display: block;
   font-family: futura-pt-condensed, sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  :hover {
+    color: black;
 `
 const KikiPage = () => (
   <StaticQuery
@@ -45,7 +49,7 @@ const KikiPage = () => (
     <Layout>
       <Article>
         <SEO title="Kiki Smith" />
-        <h2>Kiki Smith: Flight Mound<br />At the Mattress Factory</h2>
+        <h1>Kiki Smith: Flight Mound<br />At the Mattress Factory</h1>
         <div style={{ maxWidth: `300px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
           <Img fluid={data.introImage.childImageSharp.fluid} alt="installation" />
         <Caption><em><b>Flight Mound</b></em> 1998. Installation of silkscreened packing quilts and bronze birds at the <a href="https://www.mattress.org/archive/index.php/Detail/collections/117">Mattress Factory</a> in Pittsburgh, PA.</Caption>

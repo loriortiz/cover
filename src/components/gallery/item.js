@@ -16,9 +16,10 @@ const Title = styled.h3`
 const Copy = styled.p`
   font-size: 0.9em;
   font-weight: 400;
+  line-height: normal;
   margin-bottom: 2rem;
 `
-const Date = styled.h6`
+const Date = styled.h4`
   margin-bottom: 0;
 `
 

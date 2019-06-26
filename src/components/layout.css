@@ -203,7 +203,7 @@ html {
 body {
   height:100vh;
   color: hsla(0, 0%, 0%, 0.8);
-  background-color: #fcf0e6;
+  background-color: #fff7f0;
   --body-font-family: "Merriweather", "Georgia", serif;
   font-weight: normal;
   word-wrap: break-word;

@@ -49,12 +49,12 @@ module.exports = {
         name: `cover-magazine`,
         short_name: `cover`,
         start_url: `/`,
-        background_color: `#fcf0e6`,
+        background_color: `#fff7f0`,
         theme_color: `#fcf0e6`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-     `gatsby-plugin-remove-serviceworker`,
+     `gatsby-plugin-offline`,
   ],
 }

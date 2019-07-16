@@ -202,7 +202,8 @@ html {
 }
 body {
   height:100vh;
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 3%, 0.9);
+  /* color: rgba(8,8,8,.9); */
   background-color: #fff7f0;
   --body-font-family: "Merriweather", "Georgia", serif;
   font-weight: normal;
@@ -442,11 +443,15 @@ blockquote {
   margin-right: 1.45rem;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 0.45rem;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-family: var(--body-font-family);
+  border-width: 2px;
+  background-color: #fff0ee; 
+  text-shadow: 0.3px 0 0;
+  box-shadow: -1px 0 .2px hsla(0, 0%, 3%, 0.9)
 }
 form {
   margin-left: 0;

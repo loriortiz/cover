@@ -67,7 +67,7 @@ const MillaPage = () => (
         </StyledBackgroundSection>
         <Caption><em><b>Milla</b></em>. Director:Jan Dikkers; Make-up: Michael Del Fino; Shot at Sun Studios, NYC</Caption>
         <ArticleTitle><em>ROLE MODEL</em></ArticleTitle>
-        <p>By <strong>Rosemary Grillo</strong>. Photo: <strong>Stephen Churchill Downes</strong>. In <em><b>COVER</b></em> Summer 1995</p>
+        <p>By <strong>Rosemary Grillo</strong>. Photo: <strong>Stephen Churchill Downes</strong>. In <em><b>COVER</b></em> Summer <b>1995</b></p>
         <p>Milla was a model at eleven, and a world traveler, and <em>haute-couture femme fatale</em> by thirteen. Her mother, a Ukrainian actress, and her father, a Yugoslavian doctor, had left the USSR when Milla was five. The family landed in Southern California where Milla became the existentialist, reading Balzac and Latin American lit from Allende to Marquez, and partying from modeling shoots to movie sets.</p>
         <p>(Remember <em>Return to the Blue Lagoon</em> and Richard Linklater's recent <em>Dazed and Confused</em>?)</p>
         <p>Now a seasoned star at nineteen, Milla describes her mother as a long-standing influence. She wanted to follow in her mother's footsteps and become an actress. One thing lead to another and Milla found herself at twelve made up to look twenty. Being in front of the lens became natural.</p>

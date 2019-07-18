@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <h1>COVER Magazine: The Underground National</h1>
-    <p>Jeffrey Cyphers Wright launched <em>Cover Magazine</em> in 1987. Its contributors included Molly Jong-Fast, Timothy Greenfield-Sanders, John Yau, Robert C. Morgan, David Ulin, Jeanne C. Wilkinson, and KK Kozik. The 64 page monthly journal circulated nationally until 2000. The complete set of <em>Cover</em> issues are archived in New York University Fales Library and at MoMA.</p>
+    <p>Poet Jeffrey Cyphers Wright launched <em>Cover Magazine</em> in 1987. Its contributors included the era's vibrant local talent: Molly Jong-Fast, Timothy Greenfield-Sanders, David Ulin, and many more artists and writers covering their culture. The 64-page monthly journal circulated nationally until 2000. The complete set of <em>Cover</em> issues are archived at NYU Fales Library and at MoMA. Learn more on the About page and peruse the articles as we add them (below).</p>
     <div style={{ maxWidth: `960px`, marginBottom: `1.45rem` }}>
       <Gallery items={data.homeJson.gallery} />
     </div>

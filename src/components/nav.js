@@ -31,6 +31,9 @@ const Nav = () => (
   <SiteNav>
     <NavList>
       <ListItem>
+        <LinkItem to="/about/">About</LinkItem>
+      </ListItem>
+      <ListItem>
         <LinkItem to="/articles/">Articles</LinkItem>
       </ListItem>
       <ListItem>

@@ -6,7 +6,8 @@
  */
 
 import React from "react"
-
+import { Link } from "gatsby"
+import styled from "styled-components"
 import Header from "./header"
 import "./layout.css"
 
@@ -25,6 +26,16 @@ function Wrapper(props) {
     </div>
     )
 }
+const HomeLink = styled(Link)`
+  text-align:center;
+  display: block;
+  font-family: futura-pt-condensed, sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  :hover {
+    color: black;
+  `
+
 function Footer(props){
   return (
     <footer
@@ -46,6 +57,7 @@ function Layout(props) {
       <Header siteTitle="Cover" />
       <Wrapper> 
         <main>{props.children}</main>
+        <HomeLink to="/">COVER</HomeLink>
         <Footer />
       </Wrapper>
     </>

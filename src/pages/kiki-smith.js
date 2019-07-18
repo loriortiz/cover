@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
@@ -17,15 +17,7 @@ const Caption = styled.small`
   font-size: 0.80em;
   line-height: 0.08em;
 `
-const HomeLink = styled(Link)`
-  text-align:center;
-  display: block;
-  font-family: futura-pt-condensed, sans-serif;
-  font-size: 1.4rem;
-  text-decoration: none;
-  :hover {
-    color: black;
-`
+
 const KikiPage = () => (
   <StaticQuery
     query={graphql`
@@ -48,14 +40,15 @@ const KikiPage = () => (
   `} render={(data) => (
     <Layout>
       <Article>
-        <SEO title="Kiki Smith" />
+        <SEO title="Kiki Smith"
+          description="COVER interviewed Artist Kiki Smith on her 1998 Mattress Factory installation" />
         <h1>Kiki Smith: Flight Mound<br />At the Mattress Factory</h1>
         <div style={{ maxWidth: `300px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
           <Img fluid={data.introImage.childImageSharp.fluid} alt="installation" />
         <Caption><em><b>Flight Mound</b></em> 1998. Installation of silkscreened packing quilts and bronze birds at the <a href="https://www.mattress.org/archive/index.php/Detail/collections/117">Mattress Factory</a> in Pittsburgh, PA.</Caption>
         </div>
         <ArticleTitle><em>BODY OF WORK</em></ArticleTitle>
-        <p>By <strong>KAREN TOM</strong>, Photos: <strong>Robert Baldridge</strong></p>
+        <p>By <strong>KAREN TOM</strong>. Photos: <strong>Robert Baldridge</strong>. In <b>COVER Magazine 1998</b> issue.</p>
         <p>The mission began on February 4, 1998, 12:32 a.m., New York City. There were flash-flood warnings for the entire East Coast. Noreaster was in full force, but despite the obstacles, my partner-in-crime, photographer Robert Baldridge and I packed up our gear and resolutely headed on the icy high­ways and byways, pilgrimaging to Pittsburgh.</p> <p>Between driving shifts and insomnia, I zoned into the world of Kiki Smith. Under the guidance of a flashlight, I read through the one-inch pile of articles about Kiki's life and career. The information mostly covered her multi medium sculptures exploring the human anatomy and its functions, via excretions and exposed organs. A study she spent over a decade dissecting.</p> <p>It catapulted her into the art world spotlight — a prestige that includes representation by the one of the world's most prestigious galleries, the Pace Wildenstein Gallery; solo exhibitions at the MoMA, Dallas Museum of Art, the Museum of Contemporary Art in Los Angeles; group showings at The Whitney Biennial, New Museum of Contemporary Art in New York, Guggenheim Museum SoHo, and her bronze version of Lilith permanently displayed at the MET.</p>
           <p>Also, I learned the details of her personal history: the life of being the daughter of artist Tony Smith, an environment with Jackson Pollack and Lee Krasner as casual guests at the dinner table.</p>
 
@@ -87,7 +80,6 @@ const KikiPage = () => (
 
                 <p><b>TOM</b>: <em>What would you like to come into your next life as?</em><br /><b>SMITH</b>:  All I could hope is I'll learn what I'm to learn properly in this lifetime, and that I don't come back lower than this, and that I will, at least, keep progressing spiritually. I leave it up to whatever I have invested in this lifetime.</p>   
         </Article>
-        <HomeLink to="/">COVER</HomeLink>
       </Layout>
     )}
   />

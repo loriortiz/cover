@@ -1,5 +1,12 @@
 {
   "gallery": [{
+    "title": "Andrei Codrescu",
+    "slug": "andrei-codrescu",
+    "date": "September 1995",
+    "copy": "On a 16th century serial killer",
+    "image": "../images/gallery/andre.jpg"
+  },
+  {
     "title": "Kiki Smith",
     "slug": "kiki-smith",
     "date": "1998",

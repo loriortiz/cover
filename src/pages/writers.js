@@ -7,19 +7,9 @@ import Img from "gatsby-image"
 /* import Album from "../components/album/album" */
 
 const Article = styled.div`
-<<<<<<< HEAD
-  max-width: 650px;
-  margin: 0 auto; */
-/* `
-||||||| merged common ancestors
-  max-width: 650px;
-  margin: 0 auto;
-`
-=======
   max-width:960px;
   margin: 0 auto;
 `
->>>>>>> useStaticQuery
 const ArticleTitle = styled.h3`
   font-size: 3rem;
   text-shadow: 1px 0 0 #000, 2px 0 0 rgba(255, 5, 0, 1);
@@ -31,34 +21,6 @@ const Album = styled.figure`
   padding: 0 4rem;
   margin: 2rem 0;
   
-<<<<<<< HEAD
-  <Layout>
-      <SEO title="Literati"
-        description="Portraits of poets and playwrights from the COVER archive: Eileen Miles, Allen Ginsberg, Bina Sharif, Rene Ricard, Alice Notley, and Amiri Baraka" />
-      <h1>Luminaries of Literature</h1>
-      
-      <ArticleTitle><em>Portrait Album</em></ArticleTitle>
-      <p>Art photos of literary rock stars from the <em>COVER</em> archives.</p>
-
-      <Album photos={data.albumsJson.album}/>
-  </Layout>
-)
-||||||| merged common ancestors
-  <Layout>
-    <Article>
-      <SEO title="Literati"
-        description="Portraits of poets and playwrights from the COVER archive: Eileen Miles, Allen Ginsberg, Bina Sharif, Rene Ricard, Alice Notley, and Amiri Baraka" />
-      <h1>Luminaries of Literature</h1>
-      
-      <ArticleTitle><em>Portrait Album</em></ArticleTitle>
-      <p>Art photos of literary rock stars from the <em>COVER</em> archives.</p>
-
-      <Album photos={data.albumsJson.album}/>
-
-    </Article>
-  </Layout>
-)
-=======
   @media (max-width: 400px) {
       display: block;
       padding:0;
@@ -96,7 +58,6 @@ export default () => {
         <h1>Luminaries of Literature</h1>
         <p>Art photos of literary rock stars from the <em>COVER</em> archives.</p>
         <ArticleTitle><em>Portrait Album</em></ArticleTitle>
->>>>>>> useStaticQuery
 
         <Album>
         {data.allFile.edges.map(({node}) => (
@@ -112,21 +73,3 @@ export default () => {
     </Layout >
   )
 }
-
-/* export const query = graphql`
-  query AlbumpageQuery {
-    albumsJson {
-      album {
-        title
-        imgw
-        image {
-          childImageSharp {
-          fluid(maxWidth: 500, quality: 90) {
-            ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    }
-  }
-  ` */

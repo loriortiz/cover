@@ -7,16 +7,25 @@ import Img from "gatsby-image"
 /* import Album from "../components/album/album" */
 
 const Article = styled.div`
-  max-width:650px;
+  max-width:960px;
   margin: 0 auto;
 `
 const ArticleTitle = styled.h3`
   font-size: 3rem;
   text-shadow: 1px 0 0 #000, 2px 0 0 rgba(255, 5, 0, 1);
 `
-const StyledImage = styled(Img)`
-  object-fit: none;
-  margin-bottom: 1em;
+const Album = styled.figure`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  padding: 0 4rem;
+  margin: 2rem 0;
+  
+  @media (max-width: 400px) {
+      display: block;
+      padding:0;
+    }
+  }
 `
 
 export default () => {
@@ -50,7 +59,7 @@ export default () => {
         <p>Art photos of literary rock stars from the <em>COVER</em> archives.</p>
         <ArticleTitle><em>Portrait Album</em></ArticleTitle>
 
-
+        <Album>
         {data.allFile.edges.map(({node}) => (
           <Img fluid={node.childImageSharp.fluid}
           key={node.id}
@@ -58,7 +67,8 @@ export default () => {
           alt={node.base.split(".")[0]}
           />
         ))} 
-
+        </Album>
+        <p>Top row: Amiri Baraka at The Knitting Factory, photo: Luigi Cazzaniga; Bina Sharif. Middle row: Eileen Myles; Alice Notley. Bottom: Rene Ricard, photo: Allen Ginsberg; Allen Ginsberg.</p>
       </Article>
     </Layout >
   )

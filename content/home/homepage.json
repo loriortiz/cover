@@ -1,5 +1,12 @@
 {
   "gallery": [{
+    "title": "Allen Ginsberg",
+    "slug": "writers",
+    "date": "19--",
+    "copy": "Luminaries of the Literary world",
+    "image": "../images/gallery/allen.jpg"
+  },
+  {
     "title": "Andrei Codrescu",
     "slug": "andrei-codrescu",
     "date": "September 1995",

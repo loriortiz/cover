@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
 import PropTypes from 'prop-types'
 import Photo from './photo'
+<<<<<<< HEAD
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -17,13 +18,27 @@ const Container = styled.div`
   }
 `
 
+||||||| merged common ancestors
+=======
+import styled from "styled-components"
+
+const Container = styled.div`
+  margin: 0 auto;
+`
+>>>>>>> useStaticQuery
 
 const Album = ({ photos }) => (
   <Container>
     {photos.map((photo, i) => (
       <Photo {...photo} key={i} />
     ))} 
+<<<<<<< HEAD
   </Container>
+||||||| merged common ancestors
+  </>
+=======
+  <Container/>
+>>>>>>> useStaticQuery
 );
 
 Album.propTypes = {

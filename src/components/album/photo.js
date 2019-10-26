@@ -6,25 +6,34 @@ import Img from 'gatsby-image'
 
 
 const Title = styled.small`
-  font-size: 0.80em;
-  line-height: 0.08em;
+  font-weight: 400;
+  line-height: normal;
+  `
+const StyledFigure = styled.figure`
+  max-width: ${imgw};
+  margin: 0 auto;
 `
 
-const Photo = ({ title, width, image }) => (
-  <figure>
+const Photo = ({ title, imgw, image }) => (
+  <StyledFigure>
     <Img 
-      fluid={image ? image.childImageSharp.fluid : {}}  maxWidth={width} width="100%" alt="photo" />
+      fluid={image ? image.childImageSharp.fluid : {}}
+      objectFit="none"  
+      maxWidth={imgw} 
+      margins="0 auto" 
+      alt="photo" 
+    />
     <figcaption>  
       <Title>{title}</Title>
     </figcaption>
-  </figure>
+  </StyledFigure>
  
   
 );
 
 Photo.propTypes = {
   title: PropTypes.string,
-  width: PropTypes.string,
+  imgw: PropTypes.number.isRequired,
   image: PropTypes.object.isRequired,
 };
 

@@ -29,11 +29,11 @@ const Album = styled.figure`
     }
   }
 `
-const Citation = styled.p`
+/* const Citation = styled.p`
   @media (max-width: 480px) {
     display:none;
   }
-`
+` */
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -75,7 +75,7 @@ export default () => {
           />
         ))} 
         </Album>
-        <Citation>Top row: Amiri Baraka at The Knitting Factory, photo: Luigi Cazzaniga; Bina Sharif. Middle row: Eileen Myles; Alice Notley. Bottom: Rene Ricard, photo: Allen Ginsberg; Allen Ginsberg.</Citation>
+        <p>Top: Amiri Baraka at The Knitting Factory, photo: Luigi Cazzaniga; Bina Sharif. Middle: Eileen Myles; Allen Ginsberg. Bottom: Rene Ricard, photo: Allen Ginsberg; Alice Notley.</p>
       </Article>
     </Layout >
   )

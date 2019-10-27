@@ -21,10 +21,17 @@ const Album = styled.figure`
   padding: 0 4rem;
   margin: 2rem 0;
   
-  @media (max-width: 400px) {
-      display: block;
-      padding:0;
+  @media (max-width: 480px) {
+    grid-template-columns: minmax(100%, 1fr);
+    grid-gap: 1rem;
+    padding: 0;
+    margin: 0;
     }
+  }
+`
+const Citation = styled.p`
+  @media (max-width: 480px) {
+    display:none;
   }
 `
 
@@ -68,7 +75,7 @@ export default () => {
           />
         ))} 
         </Album>
-        <p>Top row: Amiri Baraka at The Knitting Factory, photo: Luigi Cazzaniga; Bina Sharif. Middle row: Eileen Myles; Alice Notley. Bottom: Rene Ricard, photo: Allen Ginsberg; Allen Ginsberg.</p>
+        <Citation>Top row: Amiri Baraka at The Knitting Factory, photo: Luigi Cazzaniga; Bina Sharif. Middle row: Eileen Myles; Alice Notley. Bottom: Rene Ricard, photo: Allen Ginsberg; Allen Ginsberg.</Citation>
       </Article>
     </Layout >
   )

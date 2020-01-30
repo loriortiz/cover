@@ -75,7 +75,7 @@ export default () => {
           />
         ))} 
         </Album>
-        <p>Top: Amiri Baraka at The Knitting Factory, photo: Luigi Cazzaniga; Bina Sharif. Middle: Eileen Myles; Allen Ginsberg. Bottom: Rene Ricard, photo: Allen Ginsberg; Alice Notley.</p>
+        <p>Amiri Baraka at The Knitting Factory, photo: Luigi Cazzaniga; Bina Sharif; Eileen Myles; Allen Ginsberg; Rene Ricard sitting at table, photo: Allen Ginsberg; Alice Notley; William Borroughs with cane; Emilio Cubierto, photo: Luigi Cazzaniga</p>
       </Article>
     </Layout >
   )

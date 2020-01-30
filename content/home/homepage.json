@@ -1,5 +1,12 @@
 {
   "gallery": [{
+      "title": "Tabloid Covers",
+      "slug": "tabloids",
+      "date": "1986-1994",
+      "copy": "Covers from the early days",
+      "image": "../images/gallery/twoguys.jpg"
+    },
+    {
     "title": "Portrait Album",
     "slug": "writers",
     "date": "nd",

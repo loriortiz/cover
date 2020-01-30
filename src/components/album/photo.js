@@ -17,23 +17,18 @@ const StyledFigure = styled.figure`
 const Photo = ({ title, imgw, image }) => (
   <StyledFigure>
     <Img 
-<<<<<<< HEAD
       fluid={image ? image.childImageSharp.fluid : {}}
       objectFit="none"  
       maxWidth={imgw} 
       margins="0 auto" 
       alt="photo" 
     />
-||||||| merged common ancestors
-      fluid={image ? image.childImageSharp.fluid : {}}  maxWidth={width} width="100%" alt="photo" />
-=======
       fluid={image ? image.childImageSharp.fluid : {}}
       objectFit="none"  
       maxWidth={width} 
       width="100%" 
       alt="photo" 
     />
->>>>>>> useStaticQuery
     <figcaption>  
       <Title>{title}</Title>
     </figcaption>

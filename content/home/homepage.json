@@ -1,5 +1,12 @@
 {
   "gallery": [{
+      "title": "Late Covers",
+      "slug": "covers9799",
+      "date": "1997-1999",
+      "copy": "The final years",
+      "image": "../images/gallery/vol11-5.jpg"
+    },
+    {
       "title": "Glossy Covers",
       "slug": "covers9596",
       "date": "1995-1996",

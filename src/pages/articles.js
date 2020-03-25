@@ -7,6 +7,9 @@ const ArticlesPage = () => (
   <Layout>
     <SEO title="Articles" />
     <h1>Articles</h1>
+
+    <p>A Rachel Youens review of <Link to="/jensen">Bill Jensen</Link>'s Mary Boone Gallery exhibit, from the COVER November 1995 issue.</p>
+
     <p><Link to="/writers">Portrait Album</Link> Art photos from the archive: some poets and writers we covered.</p>
 
     <p><Link to="/reed-portrait">Timothy Greenfield-Sanders’ portrait diary</Link> of his year (1998) directing and producing <em>Lou Reed: Rock and Roll Heart</em> for PBS and filming Reed and Robert Wilson's <em>Time Rocker</em>.</p>

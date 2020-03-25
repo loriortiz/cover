@@ -47,7 +47,7 @@ const JensenPage = () => (
         
         <p>Smallish, none measure more than 39 inches, Jenson may cloak his motives with titles like “Colossus,” “Hour of the Wolf,” and "Winter Light,” but at first glance,the density of the horizon and the  and fiction of its aftermath form some promise of an intrinsic beyond, held hostage by its borders.</p>
 
-        <p>Jenson brings to the paintings, as he has in the past, a signature of brush strokes that heighten their scale to reach right across the depth of the gallery space. Stroke builds form and form here is often posited by horizontal bands whose weight and opacity are obtained through placement and degree of thickness, surprising the viewer.</p>
+        <p>Jensen brings to the paintings, as he has in the past, a signature of brush strokes that heighten their scale to reach right across the depth of the gallery space. Stroke builds form and form here is often posited by horizontal bands whose weight and opacity are obtained through placement and degree of thickness, surprising the viewer.</p>
           
         <p>Sky and ground are washed and scraped repeatedly and yield veils of unusually sensual and luminous bright lime greens and ochres.</p>
 

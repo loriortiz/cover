@@ -18,14 +18,16 @@ const ArticleTitle = styled.h3`
 `
 const Question = styled.span`
   font-family: "futura-pt-condensed", sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 1.2em;
-  font-style: normal;
+  font-style: bold;
   line-height: 1.2;
 `
 const Caption = styled.small`
   font-size: 0.80em;
   line-height: 0.08em;
+  font-family: Merriweather, Georgia, serif;
+  font-weight: normal;
 `
 
 const ColvinPage = () => (
@@ -86,7 +88,7 @@ const ColvinPage = () => (
 
         <p><Question>JCW: And you enjoy it?<br />SC:</Question> I enjoy it but it's getting a little old, like 250 days a year.</p>
 
-        <p><Question>JCW: Talking about this folk stuff I keep flashing on that song Dylan did at the Newport Festival. <em>I Ain't Gonna Work on Maggie's Farm No More</em>. Did that have any resonance For you?<br />SC:</Question> It was before I was really into it. I didn't really closely follow Dylan until <em>Blood on the Tracks</em> came out. So I only know about that incident in hindsight but it's a great incident to know about. They booed Dylan for <em>Highway 61</em>.</p>
+        <p><Question>JCW: Talking about this folk stuff I keep flashing on that song Dylan did at the Newport Festival. "I Ain't Gonna Work on Maggie's Farm No More." Did that have any resonance For you?<br />SC:</Question> It was before I was really into it. I didn't really closely follow Dylan until <em>Blood on the Tracks</em> came out. So I only know about that incident in hindsight but it's a great incident to know about. They booed Dylan for <em>Highway 61</em>.</p>
 
         <p><Question>JCW: But that's kind of a fight we're still having to fight<br />SC:</Question> The fight is to keep doing the music you want to do and not second guess yourself by what­ever's going on on the radio. The mentality seems to be that the record company for the most part is going to play it safe and think about where to market you in terms of whoever is very marketable at the moment. But as an artist you have to, as idealistic as it may seem, you have to feel like you are the next big thing. If you are trying to record something and you have a sound that's calling you, it moves you, it means something to you, you have to follow that. I haven't always done that, I have compromised in favor of the record company, I've tried to play my cards appropriately and keep people happy, and it's been a valuable lesson, but I'm done with that.</p>
         

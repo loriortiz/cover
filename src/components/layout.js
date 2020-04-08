@@ -30,6 +30,7 @@ const HomeLink = styled(Link)`
   text-align:center;
   display: block;
   font-family: futura-pt-condensed, sans-serif;
+  font-weight: bold;
   font-size: 1.4rem;
   text-decoration: none;
   :hover {

@@ -6,8 +6,8 @@ const Audio = ({ audioSrcURL, audioTitle, ...props }) => (
       title={audioTitle}
       controls
       allow="encrypted-media"
-      allowTransparency="true"
-      loop="false"
+      allowtransparency="true"
+      loop="0"
       frameBorder="0"
       width="300"
       height="380"

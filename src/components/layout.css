@@ -227,6 +227,7 @@ img {
 }
 main {
   --header-font-family: futura-pt-condensed, sans-serif;
+  font-weight: 700;
 }
 .question {
   --question-font-family: 'futura-pt-condensed',sans-serif;
@@ -605,7 +606,7 @@ td:last-child {
 }
 .question {
   font-family: var(--question-font-family);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2em;
 }
 

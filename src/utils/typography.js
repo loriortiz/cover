@@ -13,15 +13,20 @@ sutroTheme.overrideThemeStyles = () => {
     "a.copy": {
       fontFamily: `Merriweather, Georgia, serif`,
     },
+    "blockquote": {
+      fontWeight: `normal`,
+    },
     "p": {
       fontFamily: `Merriweather, Georgia, serif`,
+      fontWeight: `normal`,
     },
     "h3, h1, h2, h4": {
       fontFamily: `"futura-pt-condensed", sans-serif`,
+      fontWeight: `700`,
     },
     "span.question": {
       fontFamily: `"futura-pt-condensed", sans-serif`,
-      fontWeight: `300`,
+      fontWeight: `700`,
     }
   }
 }

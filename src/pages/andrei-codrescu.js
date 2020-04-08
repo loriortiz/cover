@@ -12,6 +12,8 @@ const Article = styled.div`
 const ArticleTitle = styled.h3`
   font-size: 3rem;
   text-shadow: 1px 0 0 #000, 2px 0 0 rgba(255, 5, 0, 1);
+  text-transform: uppercase;
+  font-style: italic;
 `
 const ArticleSubtitle = styled.h3`
   font-size: 2rem;

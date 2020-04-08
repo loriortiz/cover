@@ -19,6 +19,10 @@ sutroTheme.overrideThemeStyles = () => {
     "h3, h1, h2, h4": {
       fontFamily: `"futura-pt-condensed", sans-serif`,
     },
+    "span.question": {
+      fontFamily: `"futura-pt-condensed", sans-serif`,
+      fontWeight: `300`,
+    }
   }
 }
 

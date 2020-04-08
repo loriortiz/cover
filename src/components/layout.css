@@ -228,6 +228,10 @@ img {
 main {
   --header-font-family: futura-pt-condensed, sans-serif;
 }
+.question {
+  --question-font-family: 'futura-pt-condensed',sans-serif;
+}
+
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -598,6 +602,11 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0;
+}
+.question {
+  font-family: var(--question-font-family);
+  font-weight: 300;
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 480px) {

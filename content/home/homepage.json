@@ -1,5 +1,12 @@
 {
   "gallery": [{
+      "title": "Bill Jensen",
+      "slug": "jensen",
+      "date": "November 1995",
+      "copy": "Review by Rachel Youens",
+      "image": "../images/gallery/jensen.jpg"
+    },
+    {
       "title": "Late Covers",
       "slug": "covers9799",
       "date": "1997-1999",

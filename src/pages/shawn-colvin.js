@@ -54,6 +54,7 @@ const ColvinPage = () => (
       <Layout>
         <Article>
           <SEO title="Shawn Colvin"
+            image="https://covermagnyc.com/static/44fd271beca6bba88e09b75e1a663ec7/8e416/colvin1.jpg"
             description="COVER publisher Jeffrey Cyphers Wright interviewed Shawn Colvin on the way forward with her unique folk-rock style" />
           <h1>A Conversation with Singer Songwriter Shawn Colvin</h1>
           <div style={{ maxWidth: `380px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>

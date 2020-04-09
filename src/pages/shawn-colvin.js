@@ -19,6 +19,7 @@ const ArticleTitle = styled.h3`
 const Question = styled.span`
   font-family: "futura-pt-condensed", sans-serif;
   font-weight: bold;
+  opacity: 0.6;
   font-size: 1.2em;
   font-style: bold;
   line-height: 1.2;
@@ -57,11 +58,11 @@ const ColvinPage = () => (
           <h1>A Conversation with Singer Songwriter Shawn Colvin</h1>
           <div style={{ maxWidth: `380px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
             <Img fluid={data.introImage.childImageSharp.fluid} alt="portrait in coat" />
-          <Caption>Colvin in Comme des Garcons, 1996</Caption>
+          <Caption>Colvin in Comme des Garcons, 1995</Caption>
           </div>
          
         <ArticleTitle><em>Steady On</em></ArticleTitle>
-          <p>By <strong>Jeffrey Cyphers Wright</strong>. In <b>COVER</b> Holiday issue 1996.</p>
+        <p>By <strong>Jeffrey Cyphers Wright</strong>. Photography: <b>Bob Berg</b>.<br />Location: Toad Hall, New Haven, CT. In <b>COVER</b> holiday issue 1996.</p>
       <p>Grammy winner Shawn Colvin has developed a huge fan base over the last decade  with her soulful songwriting and high lonesome rock voice. She's currently on a nationwide  tour supporting a solo album of her greatest hits. Few singers posses the ability to mesmerize audiences and create a special one-on-one feeling. Shawn's voice, wounded, angelic, glides and hangs onto the guitar notes keeping you right there with its narcotic, uplifting punch..</p>
 
         <Audio

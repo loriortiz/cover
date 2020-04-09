@@ -1,5 +1,12 @@
 {
   "gallery": [{
+      "title": "Shawn Colvin",
+      "slug": "shawn-colvin",
+      "date": "December 1995",
+      "copy": "Singer songwriter of the moment",
+      "image": "../images/gallery/colvin2.jpg"
+    },
+    {
       "title": "Bill Jensen",
       "slug": "jensen",
       "date": "November 1995",

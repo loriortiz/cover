@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Cover Magazine`,
     description: `Cover magazine was billed as The Underground National and circlulated for 13 years until 2000. This redux provides a glimpse into that cultural era.`,
-    author: `@LiveMagNYC`,
+    image: `default.jpg`,
+    author: `LiVE MAG!`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

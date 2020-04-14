@@ -16,8 +16,17 @@ const ArticleTitle = styled.h3`
 const Caption = styled.small`
   font-size: 0.80em;
   line-height: 0.08em;
+  font-family: Merriweather, Georgia, serif;
+  font-weight: normal;
 `
-
+const Intro = styled.span`
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: bold;
+  opacity: 0.6;
+  font-size: 1.2em;
+  font-style: bold;
+  line-height: 1.2;
+`
 const KikiPage = () => (
   <StaticQuery
     query={graphql`
@@ -62,23 +71,23 @@ const KikiPage = () => (
           <Caption><em><b>Flight Mound</b></em> detail.</Caption>
           </div>
           <p></p>
-          <p><b>TOM</b>: <em>The Mattress Factory is a site-specific installation space. What led you to bring your quilts here?</em> <br /><b>SMITH</b>: They asked me if I wanted to have the opportunity to make something for this floor, and this is just what I wanted to make. I wanted to make packing blankets, and this seemed like the opportunity to do it because they could organize the labor of it. It's a lot of work and I couldn't do it on my own.</p>
-          <p><b>TOM</b>: <em>What started you on quilt making?</em><br /><b>SMITH</b>: 
+          <p><Intro>TOM</Intro>: <Intro>The Mattress Factory is a site-specific installation space. What led you to bring your quilts here?</Intro> <br /><Intro>SMITH</Intro>: They asked me if I wanted to have the opportunity to make something for this floor, and this is just what I wanted to make. I wanted to make packing blankets, and this seemed like the opportunity to do it because they could organize the labor of it. It's a lot of work and I couldn't do it on my own.</p>
+          <p><Intro>TOM</Intro>: <Intro>What started you on quilt making?</Intro><br /><Intro>SMITH</Intro>: 
           I made quilts since I was a teenager, making them for my private use. I liked the packing blankets because they were a random way that color and patterns are put together. I thought it was nice to look at, and a way to think about how to organize color.</p>
-          <p><b>TOM</b>: <em>What would you say separates art and craft?</em><br /><b>SMITH</b>:  
+          <p><Intro>TOM</Intro>: <Intro>What would you say separates art and craft?</Intro><br /><Intro>SMITH</Intro>:  
           I would imagine intentional separation.</p>
  
-          <p><b>TOM</b>: <em>What spurred the transition to use birds as your rep­resentation of nature?</em><br /><b>SMITH</b>: I always have kept birds and as I a child I kept birds. I like thinking about them. I like them, and it just started hap­pening. In things like art you don't have to have any direc­tion where you are trying to go, so you just go to towards what attracts you or compels you to move. I just needed more space than just the body to work in. Also, I was inter­ested in cosmology stories involving humans and animals, and from there I went into making animals.</p>
-          <p><b>TOM</b>: <em>Birds are very spiritually symbolic; do you feel that emotion in you life as well as art?</em><br /><b>SMITH</b>:  Birds traditionally do have a spiritual symbolism in rela­tionship to death; this is literally a death of birds, death of natural habitat more than I mean it as metaphorical death of humans. In this time of displacement of many species and living things losing habitat, and the loss of other life forms, I don't mean it in relationship to humans; I just mean it in relationship to birds.</p>
-          <p><b>TOM</b>: <em>What other mediums do you look forward to explor­ing?</em><br /><b>SMITH</b>:  I would like to make things out of plastic I don't have any super ideas of what to do with plastic, resin and things like that. I don't like working personally with toxic materials, nor do I want to espouse the use of toxic materials for other people. I would also like to do some work in clay; do ceramics work more.</p>  
+          <p><Intro>TOM</Intro>: <Intro>What spurred the transition to use birds as your rep­resentation of nature?</Intro><br /><Intro>SMITH</Intro>: I always have kept birds and as I a child I kept birds. I like thinking about them. I like them, and it just started hap­pening. In things like art you don't have to have any direc­tion where you are trying to go, so you just go to towards what attracts you or compels you to move. I just needed more space than just the body to work in. Also, I was inter­ested in cosmology stories involving humans and animals, and from there I went into making animals.</p>
+          <p><Intro>TOM</Intro>: <Intro>Birds are very spiritually symbolic; do you feel that emotion in you life as well as art?</Intro><br /><Intro>SMITH</Intro>:  Birds traditionally do have a spiritual symbolism in rela­tionship to death; this is literally a death of birds, death of natural habitat more than I mean it as metaphorical death of humans. In this time of displacement of many species and living things losing habitat, and the loss of other life forms, I don't mean it in relationship to humans; I just mean it in relationship to birds.</p>
+          <p><Intro>TOM</Intro>: <Intro>What other mediums do you look forward to explor­ing?</Intro><br /><Intro>SMITH</Intro>:  I would like to make things out of plastic I don't have any super ideas of what to do with plastic, resin and things like that. I don't like working personally with toxic materials, nor do I want to espouse the use of toxic materials for other people. I would also like to do some work in clay; do ceramics work more.</p>  
 
-            <p><b>TOM</b>: <em>Is this your first video piece?</em><br /><b>SMITH</b>:  I use to make films when I was younger. I studied film in school and made some in the late 70s and early 80s. I did films on nature phenomenon. I made a film with Carol Perlman and Ellen Cooper called Tu/aux, which was a spoof detective story. I made another film with Ellen Cooper called Cavegirl. It was a science-fiction story. I made a film about making butter.</p>
+            <p><Intro>TOM</Intro>: <Intro>Is this your first video piece?</Intro><br /><Intro>SMITH</Intro>:  I use to make films when I was younger. I studied film in school and made some in the late 70s and early 80s. I did films on nature phenomenon. I made a film with Carol Perlman and Ellen Cooper called Tu/aux, which was a spoof detective story. I made another film with Ellen Cooper called Cavegirl. It was a science-fiction story. I made a film about making butter.</p>
 
-              <p><b>TOM</b>: <em>You work so much with you hands, how do you feel about the new art techniques and computer generated images?</em> <br /><b>SMITH</b>:  I think it's great. It's just another medium. It's like a new space people can experiment in it, see what the limits of it are and then it becomes a known space like oil paint or something like that. It's just another exploration, another possibility. It's all technology. People used their hands to make hand-made things because that was the contemporary technology and then people make new technologies. I like old technologies because I have a sense of it like it's a vacant space. It has no power in it in a certain way because it is unnecessary in most aspects of life, like ceramics jars when you could make plastic jars. In a way it has a kind of freedom in it because nobody needs it anymore. It's all just tools.</p>
-              <p><b>TOM</b>: <em>If you could live in any time period, which would you choose and as what?</em> <br /><b>SMITH</b>: 
+              <p><Intro>TOM</Intro>: <Intro>You work so much with you hands, how do you feel about the new art techniques and computer generated images?</Intro> <br /><Intro>SMITH</Intro>:  I think it's great. It's just another medium. It's like a new space people can experiment in it, see what the limits of it are and then it becomes a known space like oil paint or something like that. It's just another exploration, another possibility. It's all technology. People used their hands to make hand-made things because that was the contemporary technology and then people make new technologies. I like old technologies because I have a sense of it like it's a vacant space. It has no power in it in a certain way because it is unnecessary in most aspects of life, like ceramics jars when you could make plastic jars. In a way it has a kind of freedom in it because nobody needs it anymore. It's all just tools.</p>
+              <p><Intro>TOM</Intro>: <Intro>If you could live in any time period, which would you choose and as what?</Intro> <br /><Intro>SMITH</Intro>: 
                I would probably like to be a jeweler, or a cook, maybe a ceramist in some period, like the Chang Dynasty, or the arts and craft movement in England. There are so many choices in the whole history of the world. There are so many interesting aspects. Some are more counteractive and some are more expansive than others. There are certainly times of terror where one, if given the choice to choose, would avoid. There is a lot to learn. That's why I go to museums and see all the information that people already know about how to make a physical expression.</p> 
 
-                <p><b>TOM</b>: <em>What would you like to come into your next life as?</em><br /><b>SMITH</b>:  All I could hope is I'll learn what I'm to learn properly in this lifetime, and that I don't come back lower than this, and that I will, at least, keep progressing spiritually. I leave it up to whatever I have invested in this lifetime.</p>   
+                <p><Intro>TOM</Intro>: <Intro>What would you like to come into your next life as?</Intro><br /><Intro>SMITH</Intro>:  All I could hope is I'll learn what I'm to learn properly in this lifetime, and that I don't come back lower than this, and that I will, at least, keep progressing spiritually. I leave it up to whatever I have invested in this lifetime.</p>   
         </Article>
       </Layout>
     )}

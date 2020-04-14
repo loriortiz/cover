@@ -38,6 +38,8 @@ const Caption = styled.small`
   font-size: 0.80em;
   line-height: 0.08em;
   text-align: center;
+  font-family: Merriweather, Georgia, serif;
+  font-weight: normal;
 `
 
 const MillaPage = () => (

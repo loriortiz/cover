@@ -8,13 +8,17 @@ const ArticlesPage = () => (
     <SEO title="Articles" />
     <h1>Articles</h1>
 
+    <p>COVER published "Dark Meat," A poem by <Link to="michael-mcclure">Michael McClure</Link> in the October 1995 issue.</p>
+
+    <p>Jeff Wright interviewed grammy award-winning singer songwriter <Link to="/shawn-colvin">Shawn Colvin</Link> at Toad Hall, in New Haven, CT, 1995.</p>
+
     <p>A Rachel Youens review of <Link to="/jensen">Bill Jensen</Link>'s Mary Boone Gallery exhibit, from the COVER November 1995 issue.</p>
 
     <p><Link to="/writers">Portrait Album</Link> Art photos from the archive: some poets and writers we covered.</p>
 
     <p><Link to="/reed-portrait">Timothy Greenfield-Sanders’ portrait diary</Link> of his year (1998) directing and producing <em>Lou Reed: Rock and Roll Heart</em> for PBS and filming Reed and Robert Wilson's <em>Time Rocker</em>.</p>
 
-    <p><Link to="/andrei-coddrescu">Andrei Codrescu</Link> discusses his new (1995) novel <em>Blood Countess</em>, his first under his own name.</p>
+    <p><Link to="/andrei-codrescu">Andrei Codrescu</Link> discusses his new (1995) novel <em>Blood Countess</em>, his first under his own name.</p>
 
     <p><Link to="/milla">Milla: On Runway, Record, and Film.</Link> A 1995 interview with the ubiquitous artist.</p>
 

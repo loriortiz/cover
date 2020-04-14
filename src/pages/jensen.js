@@ -18,6 +18,8 @@ const ArticleTitle = styled.h3`
 const Caption = styled.small`
   font-size: 0.80em;
   line-height: 0.08em;
+  font-family: Merriweather, Georgia, serif;
+  font-weight: normal;
 `
 
 const JensenPage = () => (

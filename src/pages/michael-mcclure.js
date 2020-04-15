@@ -42,7 +42,7 @@ const McclurePage = () => (
       {
         introImage: file(relativePath: {eq: "mcclure.jpg"}) {
           childImageSharp {
-            fluid(maxWidth: 280) {
+            fluid(maxWidth: 400) {
               ...GatsbyImageSharpFluid
           }
         }
@@ -57,7 +57,7 @@ const McclurePage = () => (
           <h1>A Michael McClure Poem </h1>
           <div style={{ maxWidth: `280px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
             <Img fluid={data.introImage.childImageSharp.fluid} alt="installation" />
-            <Caption><em><b>The Beard</b></em> program cover from McClure's play.</Caption>
+          <Caption>cover art by Wallace Berman for McClure's 1964<em> <b>Ghost Tantras</b></em>.</Caption>
           </div>
           <ArticleTitle><em>Dark Meat</em></ArticleTitle>
           <p>In <b>COVER Magazine </b> October, 1995</p>

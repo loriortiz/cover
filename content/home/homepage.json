@@ -1,5 +1,12 @@
 {
   "gallery": [{
+      "title": "Michael McClure Poem",
+      "slug": "michael-mcclure",
+      "date": "October 1995",
+      "copy": "Wallace Berman's cover art",
+      "image": "../images/gallery/mcclure.jpg"
+    },
+    {
       "title": "Shawn Colvin",
       "slug": "shawn-colvin",
       "date": "December 1995",

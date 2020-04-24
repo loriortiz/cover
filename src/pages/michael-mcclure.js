@@ -56,7 +56,7 @@ const McclurePage = () => (
           image={data.introImage}/>
           <h1>A Michael McClure Poem </h1>
           <div style={{ maxWidth: `280px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
-            <Img fluid={data.introImage.childImageSharp.fluid} alt="installation" />
+            <Img fluid={data.introImage.childImageSharp.fluid} alt="hairy man" />
           <Caption>cover art by Wallace Berman for McClure's 1964<em> <b>Ghost Tantras</b></em>.</Caption>
           </div>
           <ArticleTitle><em>Dark Meat</em></ArticleTitle>

@@ -42,14 +42,14 @@ const LucindaPage = () => (
       <Layout>
         <Article>
           <SEO title="Lucinda Williams"
-            description="Rachel Youens review of Bill Jensen's  painting show at Mary Boone Gallery, in Cover Magazine November 1995." />
-          <h1>Lucinda Williams</h1>
+            description="Lucinda Williams discusses her life and music with Cover in 1989." />
+          <h1>Talking to The Queen of Alt Country Before She Received Any of Her 15 Grammies</h1>
           <div style={{ maxWidth: `650px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
             <Img fluid={data.introImage.childImageSharp.fluid} alt="installation" />
             <Caption>Photo: Anna Lee Keerer</Caption>
           </div>
-        <ArticleTitle><em>Getting Her Way</em></ArticleTitle>
-          <p>By <strong>Cathy Lee Crane</strong>. In <b>COVER Magazine </b> October, 1989</p>
+        <ArticleTitle><em>Lucinda Williams</em></ArticleTitle>
+          <p>By <strong>Cathy Lee Crane</strong>. "Getting Her Way" in <b>COVER Magazine </b> October, 1989</p>
          
         <p>While the promotion of her de­but album is coming to a close, an elaborate campaign for her recently released EP, <em>Passionate Kisses</em>, is taking its place. In addition to the title cut, the EP offers previously unreleased live material, plus the added treat of a 1983 recording she made with Taj Mahal. After the EP campaign: a video, in-store merchan­dising, and potential dates in Australia, Lucinda will return to the studio to work on her second album for Rough Trade.</p>
 

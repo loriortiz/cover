@@ -62,7 +62,7 @@ const LucindaPage = () => (
 </p>
 <p>While she has baffled some critics and has confused record execs for over a decade, Lucinda is no big mystery. She is a woman who wears her per­sonal history on her sleeve; the influ­ences of her poet father, her musican mother, moving from one southern town to another, the political involve­ment of the '60s and '70s, and her love affairs.</p>
 
-<ArticleSubtitle>Her Way</ArticleSubtitle>
+<ArticleSubtitle>The Music. Her Way</ArticleSubtitle>
 
 <p>In short, Lucinda sings of her life. "Everything's kind of all melded to­gether into whatever I am now. I think the reaction to my album is that people are responding to something they un­derstand. One thing I see lacking in other songs is that they're surface. Some people are so afraid to be vulner­able, to expose themselves. So many artists play it safe. They see what's al­ready out there and imitate it, don't take risks. What separates art from fad and fashion is the ability to articulate your own response to the world. Art is an extension of oneself, looking inside for oneself, not outside for other peo­ple. Even people in the music business are afraid to bend the rules. It seems that they want records to be sterile and clinical. You can make albums without humans now. But in producing my al­bum, we didn't 'clean it up.' I mean, we left the squeak on the neck of the guitar, we didn't use a click track. With the fas­cination for technology, producing was more what we <em>didn't</em> do than what we did do."</p>
 

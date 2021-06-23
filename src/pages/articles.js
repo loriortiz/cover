@@ -8,6 +8,8 @@ const ArticlesPage = () => (
     <SEO title="Articles" />
     <h1>Articles</h1>
 
+    <p>COVER talked to <Link to="lucinda-williams">Lucinda Williams</Link>, Queen of Alt Country, before she received any of her 15 grammies</p>
+
     <p>COVER published "Dark Meat," A poem by <Link to="michael-mcclure">Michael McClure</Link> in the October 1995 issue.</p>
 
     <p>Jeff Wright interviewed grammy award-winning singer songwriter <Link to="/shawn-colvin">Shawn Colvin</Link> at Toad Hall, in New Haven, CT, 1995.</p>

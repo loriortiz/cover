@@ -1,5 +1,12 @@
 {
   "gallery": [{
+      "title": "Lucinda Williams",
+      "slug": "lucinda-williams",
+      "date": "October 1989",
+      "copy": "Before her 15 Grammies",
+      "image": "../images/gallery/lucinda.jpg"
+    },
+    {
       "title": "Michael McClure Poem",
       "slug": "michael-mcclure",
       "date": "October 1995",

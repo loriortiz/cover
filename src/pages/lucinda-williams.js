@@ -9,6 +9,9 @@ const Article = styled.div`
   max-width: 650px;
   margin: 0 auto;
 `
+const ArticleNumber = styled.h1 `
+  word-spacing: -2px;
+`
 const ArticleTitle = styled.h3`
   font-size: 3rem;
   text-shadow: 1px 0 0 #000, 2px 0 0 rgba(255, 5, 0, 1);
@@ -43,7 +46,7 @@ const LucindaPage = () => (
         <Article>
           <SEO title="Lucinda Williams"
             description="Lucinda Williams discusses her life and music with Cover in 1989." />
-          <h1>Talking to The Queen of Alt Country Before She Received Any of Her 15 Grammies</h1>
+          <h1><ArticleNumber>Talking to The Queen of Alt Country Before She Received Any of Her 15 Grammys</ArticleNumber></h1>
           <div style={{ maxWidth: `650px`, marginBottom: `1.85rem`, lineHeight: `106%` }}>
             <Img fluid={data.introImage.childImageSharp.fluid} alt="installation" />
             <Caption>Photo: Anna Lee Keerer</Caption>

@@ -23,18 +23,10 @@ const Photo = ({ title, imgw, image }) => (
       margins="0 auto" 
       alt="photo" 
     />
-      fluid={image ? image.childImageSharp.fluid : {}}
-      objectFit="none"  
-      maxWidth={width} 
-      width="100%" 
-      alt="photo" 
-    />
     <figcaption>  
       <Title>{title}</Title>
     </figcaption>
   </StyledFigure>
- 
-  
 );
 
 Photo.propTypes = {

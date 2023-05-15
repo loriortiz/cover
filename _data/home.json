@@ -1,0 +1,79 @@
+{
+  "items": [{
+      "title": "Lucinda Williams",
+      "slug": "lucinda-williams",
+      "date": "October 1989",
+      "copy": "Before her 15 Grammies",
+      "image": "../images/gallery/lucinda.jpg"
+    },
+    {
+      "title": "Michael McClure Poem",
+      "slug": "michael-mcclure",
+      "date": "October 1995",
+      "copy": "Wallace Berman's cover art",
+      "image": "../images/gallery/mcclure.jpg"
+    },
+    {
+      "title": "Shawn Colvin",
+      "slug": "shawn-colvin",
+      "date": "December 1995",
+      "copy": "Singer songwriter of the moment",
+      "image": "../images/gallery/colvin2.jpg"
+    },
+    {
+      "title": "Bill Jensen",
+      "slug": "jensen",
+      "date": "November 1995",
+      "copy": "Review by Rachel Youens",
+      "image": "../images/gallery/jensen.jpg"
+    },
+    {
+      "title": "Late Covers",
+      "slug": "covers9799",
+      "issue": "1997-1999",
+      "copy": "The final years",
+      "image": "../images/gallery/vol11-5.jpg"
+    },
+    {
+      "title": "Glossy Covers",
+      "slug": "covers9596",
+      "issue": "1995-1996",
+      "summary": "The Cramps and more",
+      "image": "../images/gallery/cramps.jpg"
+    },
+    {
+      "title": "Tabloid Covers",
+      "slug": "tabloids",
+      "issue": "1986-1994",
+      "summary": "Covers from the early days",
+      "image": "../images/gallery/twoguys.jpg"
+    },
+    {
+    "title": "Portrait Album",
+    "slug": "writers",
+    "issue": "nd",
+    "summary": "Poets and writers we covered",
+    "image": "../images/gallery/allen.jpg"
+  },
+  {
+    "title": "Andrei Codrescu",
+    "slug": "andrei-codrescu",
+    "issue": "September 1995",
+    "summary": "On a 16th century serial killer",
+    "image": "../images/gallery/andre.jpg"
+  },
+  {
+    "title": "Kiki Smith",
+    "slug": "kiki-smith",
+    "issue": "1998",
+    "summary": "Out-of-body experience at the Mattress Factory",
+    "image": "../images/gallery/kiki.jpg"
+  },
+  {
+    "title": "Milla",
+    "slug": "milla",
+    "issue": "Summer 1995",
+    "summary": "On runway, record, and film",
+    "image": "../images/gallery/milla.jpg"
+  }]
+}

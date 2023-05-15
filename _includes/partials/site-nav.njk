@@ -1,0 +1,14 @@
+{# <ul class="site-nav">
+  <li><a href="./about">about</a></li>
+  <li><a href="/articles/">archive</a></li>
+  <li><a href="/contact/">contact</a></li>
+</ul>
+ #}
+{% set navPages = collections.all | eleventyNavigation %}
+<ul class="site-nav">
+{%- for entry in navPages %}
+  <li{% if entry.url == page.url %} class="is-active"{% endif %}>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  </li>
+{%- endfor %}
+</ul>

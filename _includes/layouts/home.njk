@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+    <link rel="canonical" href="{{ metadata.url }}{{ page.url }}" />
+    <link rel="shortcut icon" href="/icons/icon-48x48.png"/>
+		{#- Atom and JSON feeds included by default #}
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+    <meta property="og:url" content="{{ metadata.url }}{{ page.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta prperty="og:description" content="{{ description or metadata.description }}" />
+    <meta property="og:image" content="{{ baseURL }}{{ img_path }}" />
+    <meta name="twitter:title" content="{{ title or metadata.title }}">
+    <meta name="twitter:description" content="{{ description or metadata.description }}">
+    <meta name="twitter:image" content="{{ baseURL }}/images/cover.png">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:site_name" content="Cover">
+    <meta name="twitter:image:alt" content="logo">
+    {# <link href="//fonts.googleapis.com/css?family=Open+Sans:700|Merriweather:300,300i,700,700i" rel="stylesheet" type="text/css"/> #}
+   <link rel="stylesheet" href="https://use.typekit.net/isb0hki.css">
+    <link rel="stylesheet" href="{{ baseURL }}/css/index.css">
+<!-- Delete this message, it will also remove the component CSS from the bundle -->
+ {% set css %}
+        {% include "css/gallery.css" %}
+      {% endset %}
+    <style>
+      {{ css | safe }}
+    </style>
+  </head>
+	<body>
+		{# <a href="#skip" class="visually-hidden">Skip to main content</a>
+ #}
+		<header class="site-header">
+      
+      <div class="inner">
+        <a href="/"  class="logo">
+          <img alt="cover" width="150" src="{{ baseURL }}/images/cover.png">
+        </a>
+        {% include "partials/site-nav.njk" %}
+      </div>
+    </header>
+    <div class="wrapper">
+      <main>
+
+        {{ content | safe }}
+
+      </main>
+      <a href="/" class="home-link" alt={{ metadata.title }}>
+      COVER<footer></a>
+         <p>
+           © {% year %}
+          <a href="http://jeffreycypherswright.com"> Jeffrey Cyphers Wright</a>
+         </p>
+      </footer>
+    </div>
+		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+	</body>
+</html>
